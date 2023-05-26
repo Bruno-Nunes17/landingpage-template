@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+:root {
+  --primary-color: #25fd3a;
+  --secondary-color: #f58220;
+  --white: #f9f9f9;
+}
+.white-bg {
+  background-color: var(--white);
+}
+.orange-bg {
+  background-color: var(--secondary-color);
+}
+.green-bg {
+  background-color: var(--primary-color);
+}
+#servicos{
+  overflow: hidden;
+}
+.no-border{
+  border: none !important;
+  outline: none !important;
+}
+.card-hover{
+  transition: ease-in-out 500ms;
+}
+.card-hover:hover{
+ transform: scale(1.1);
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'DM Mono', monospace;
+}
+h2{
+  font-size: 3em !important;
+}
+
+@media (max-width: 576px) { 
+  h2{
+    font-size: 20px !important;
+  }
+  .rede-social{
+    height: 50% !important;
+    width: 50% !important;
+  }
+  p{
+    font-size: 14px !important;
+  }
+ }
+ @media (max-width: 360px) { 
+  .rede-social{
+    height: 70% !important;
+    width: 70% !important;
+  }
+}
+
+ @media (max-width: 280px) { 
+  .rede-social{
+    height: 25% !important;
+    width: 25% !important;
+  }
+}
