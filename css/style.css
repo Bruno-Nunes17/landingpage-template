@@ -36,29 +36,49 @@ h1, h2, h3, h4, h5, h6{
 h2{
   font-size: 3em !important;
 }
+.rede-social{
+  aspect-ratio: 4/3 !important;
+  height: 100%;
+  width: 50%;
+}
+.container-img{
+  flex-direction: row;
+}
 
 @media (max-width: 576px) { 
   h2{
     font-size: 20px !important;
   }
   .rede-social{
-    height: 50% !important;
+    height: 100% !important;
     width: 50% !important;
   }
   p{
     font-size: 14px !important;
   }
+
  }
+ @media (min-width: 390px) { 
+  .container-img{
+    flex-direction: column;
+  }
+ }
+
+@media (min-width: 688px) { 
+ .container-img{
+   flex-direction: row;
+ }
+}
  @media (max-width: 360px) { 
   .rede-social{
-    height: 70% !important;
-    width: 70% !important;
+    height: 100% !important;
+    width: 50% !important;
   }
 }
 
  @media (max-width: 280px) { 
   .rede-social{
-    height: 25% !important;
-    width: 25% !important;
+    height: 100% !important;
+    width: 50% !important;
   }
 }
